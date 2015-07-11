@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23103.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsExtensions", "NotificationsExtensions\NotificationsExtensions.csproj", "{291083B2-8B71-41AE-8F75-02869026F27A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FFD13457-DA82-46F6-AADF-CE6011C4B67B}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		NotificationsExtensions.Portable.1.0.3.nupkg = NotificationsExtensions.Portable.1.0.3.nupkg
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{31E135F3-FD18-40B5-8D61-8448973A19B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A2191FCA-3A4E-42C3-BDA3-B85BC341C54F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{291083B2-8B71-41AE-8F75-02869026F27A} = {31E135F3-FD18-40B5-8D61-8448973A19B4}
+	EndGlobalSection
+EndGlobal
