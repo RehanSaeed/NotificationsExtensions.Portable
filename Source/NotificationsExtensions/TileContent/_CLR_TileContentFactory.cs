@@ -1,9 +1,6 @@
 ﻿namespace NotificationsExtensions.TileContent
 {
-    using System;
-    
-
-    internal sealed class TileContentFactory
+    public sealed class TileContentFactory
     {
         public static ITileSquare150x150Block CreateTileSquare150x150Block()
         {

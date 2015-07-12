@@ -4,8 +4,8 @@
     using System;
     using System.Runtime.InteropServices;
     using System.Xml.Linq;
-    
-    internal sealed class BadgeGlyphNotificationContent : IBadgeNotificationContent, INotificationContent
+
+    public sealed class BadgeGlyphNotificationContent : IBadgeNotificationContent, INotificationContent
     {
         private GlyphValue m_Glyph;
 

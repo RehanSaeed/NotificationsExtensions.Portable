@@ -8,7 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FFD13457-DA82-46F6-AADF-CE6011C4B67B}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
-		NotificationsExtensions.Portable.1.0.3.nupkg = NotificationsExtensions.Portable.1.0.3.nupkg
+		NotificationsExtensions.Portable.nupkg = NotificationsExtensions.Portable.nupkg
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
@@ -16,21 +16,62 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{31E135
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A2191FCA-3A4E-42C3-BDA3-B85BC341C54F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalWindowsApp", "UniversalWindowsApp\UniversalWindowsApp.csproj", "{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{291083B2-8B71-41AE-8F75-02869026F27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{291083B2-8B71-41AE-8F75-02869026F27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Debug|ARM.Build.0 = Debug|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Debug|x64.Build.0 = Debug|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Debug|x86.Build.0 = Debug|Any CPU
 		{291083B2-8B71-41AE-8F75-02869026F27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{291083B2-8B71-41AE-8F75-02869026F27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Release|ARM.Build.0 = Release|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Release|x64.ActiveCfg = Release|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Release|x64.Build.0 = Release|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Release|x86.ActiveCfg = Release|Any CPU
+		{291083B2-8B71-41AE-8F75-02869026F27A}.Release|x86.Build.0 = Release|Any CPU
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Debug|ARM.Build.0 = Debug|ARM
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Debug|ARM.Deploy.0 = Debug|ARM
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Debug|x64.ActiveCfg = Debug|x64
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Debug|x64.Build.0 = Debug|x64
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Debug|x64.Deploy.0 = Debug|x64
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Debug|x86.ActiveCfg = Debug|x86
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Debug|x86.Build.0 = Debug|x86
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Debug|x86.Deploy.0 = Debug|x86
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Release|Any CPU.ActiveCfg = Release|x86
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Release|ARM.ActiveCfg = Release|ARM
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Release|ARM.Build.0 = Release|ARM
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Release|ARM.Deploy.0 = Release|ARM
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Release|x64.ActiveCfg = Release|x64
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Release|x64.Build.0 = Release|x64
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Release|x64.Deploy.0 = Release|x64
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Release|x86.ActiveCfg = Release|x86
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Release|x86.Build.0 = Release|x86
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{291083B2-8B71-41AE-8F75-02869026F27A} = {31E135F3-FD18-40B5-8D61-8448973A19B4}
+		{8B381E83-4EDB-4C98-B2C4-03DEFE20CB36} = {A2191FCA-3A4E-42C3-BDA3-B85BC341C54F}
 	EndGlobalSection
 EndGlobal

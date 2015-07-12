@@ -5,7 +5,7 @@
     using System.Runtime.InteropServices;
     using System.Xml.Linq;
     
-    internal sealed class BadgeNumericNotificationContent : IBadgeNotificationContent, INotificationContent
+    public sealed class BadgeNumericNotificationContent : IBadgeNotificationContent, INotificationContent
     {
         private uint m_Number;
 
