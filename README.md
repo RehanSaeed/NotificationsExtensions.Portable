@@ -1,4 +1,6 @@
-# NotificationsExtensions.Portable
+<h1>
+<img src="https://raw.githubusercontent.com/RehanSaeed/NotificationsExtensions.Portable/master/Images/Icon.png" alt="NotificationsExtensions.Portable Logo" width="30px" height="30px"/> <a href="https://github.com/RehanSaeed/NotificationsExtensions.Portable">NotificationsExtensions.Portable</a>
+</h1>
 
 [Portable Class Library (PCL)](http://msdn.microsoft.com/en-us/library/gg597391%28v=vs.110%29.aspx) version of the NotificationsExtensions NuGet Packages. Used to Create Windows 8.1/10 or Windows Phone 8.1/10 Tile, Toast and Badge Notification XML. This package is intended for use, instead of the following NuGet packages:
 - [NotificationsExtensions.WinRT](https://www.nuget.org/packages/NotificationsExtensions.WinRT/)
@@ -10,7 +12,7 @@ This project helps to create XML representing Tile, Toast and Badge notification
 
 <img alt="Windows 8.1/10 and Windows Phone 8.1/10 Tile Templates"
      border="5"
-     src="http://i.msdn.microsoft.com/dynimg/IC718860.png"/>
+     src="https://raw.githubusercontent.com/RehanSaeed/NotificationsExtensions.Portable/master/Images/Tiles.png"/>
 
 # Why is this Useful?
 
