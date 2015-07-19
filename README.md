@@ -35,3 +35,20 @@ PM> Install-Package NotificationsExtensions.Portable
 # Attribution and Changes Made
 
 All praise goes to the above two projects and the Microsoft developers who built them. The only changes I made to the code was to switch from XmlDocument to XDocument, remove a few WinRT specific references and stick it into a Portable Class Library (PCL).
+
+# Sample Code
+
+```
+var tileContent = TileContentFactory.CreateTileSquare150x150Text01();
+
+tileContent.TextHeading.Text = "Hello!";
+tileContent.TextBody1.Text = "One";
+tileContent.TextBody2.Text = "Two";
+tileContent.TextBody3.Text = "Three";
+
+XmlDocument xmlDocument = new XmlDocument();
+xmlDocument.LoadXml(tileContent.ToString());
+
+TileUpdater tileUpdater = TileUpdateManager.CreateTileUpdaterForApplication();
+tileUpdater.Update(new TileNotification(xmlDocument));
+```
