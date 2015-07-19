@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
-    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{291083B2-8B71-41AE-8F75-02869026F27A}</ProjectGuid>
@@ -10,8 +10,8 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NotificationsExtensions</RootNamespace>
     <AssemblyName>NotificationsExtensions</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Profile151</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,9 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BadgeContent\IBadgeNotificationContent.cs" />
-    <Compile Include="BadgeContent\_CLR_BadgeGlyphNotificationContent.cs" />
-    <Compile Include="BadgeContent\_CLR_BadgeNumericNotificationContent.cs" />
-    <Compile Include="BadgeContent\_CLR_GlyphValue.cs" />
+    <Compile Include="BadgeContent\BadgeGlyphNotificationContent.cs" />
+    <Compile Include="BadgeContent\BadgeNumericNotificationContent.cs" />
+    <Compile Include="BadgeContent\GlyphValue.cs" />
     <Compile Include="INotificationContent.cs" />
     <Compile Include="INotificationContentImage.cs" />
     <Compile Include="INotificationContentText.cs" />
@@ -231,8 +231,8 @@
     <Compile Include="TileContent\TileWide310x150Text09.cs" />
     <Compile Include="TileContent\TileWide310x150Text10.cs" />
     <Compile Include="TileContent\TileWide310x150Text11.cs" />
-    <Compile Include="TileContent\_CLR_TileBranding.cs" />
-    <Compile Include="TileContent\_CLR_TileContentFactory.cs" />
+    <Compile Include="TileContent\TileBranding.cs" />
+    <Compile Include="TileContent\TileContentFactory.cs" />
     <Compile Include="ToastContent\AlarmCommands.cs" />
     <Compile Include="ToastContent\IAlarmCommands.cs" />
     <Compile Include="ToastContent\IIncomingCallCommands.cs" />
@@ -257,9 +257,9 @@
     <Compile Include="ToastContent\ToastText02.cs" />
     <Compile Include="ToastContent\ToastText03.cs" />
     <Compile Include="ToastContent\ToastText04.cs" />
-    <Compile Include="ToastContent\_CLR_ToastAudioContent.cs" />
-    <Compile Include="ToastContent\_CLR_ToastContentFactory.cs" />
-    <Compile Include="ToastContent\_CLR_ToastDuration.cs" />
+    <Compile Include="ToastContent\ToastAudioContent.cs" />
+    <Compile Include="ToastContent\ToastContentFactory.cs" />
+    <Compile Include="ToastContent\ToastDuration.cs" />
     <Compile Include="Util.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
