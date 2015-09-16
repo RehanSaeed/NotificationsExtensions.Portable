@@ -54,7 +54,7 @@
                 builder.Append("<audio");
                 if (this.Audio.Content == ToastAudioContent.Silent)
                 {
-                    builder.Append(" silent='true'/>");
+                    builder.Append(" silent='true'");
                 }
                 else
                 {
